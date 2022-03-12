@@ -30,7 +30,7 @@ class TestSolution:
             ("Evil olive", True),
             ("Yo, banana boy!", True),
             (" ", True),
-            ("1", True),
+            ("lol", True),
             ("How are you doing?", False),
             ("123!123", False),
         ],
