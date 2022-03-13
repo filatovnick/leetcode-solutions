@@ -13,7 +13,7 @@ class Solution:
         stack, hash_map = [], {"(": ")", "[": "]", "{": "}"}
         for char in s:
             if char in hash_map:
-                stack.insert(len(stack), char)
+                stack.append(char)
             else:
                 if not stack or hash_map[stack[-1]] != char:
                     return False
